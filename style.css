@@ -15,8 +15,12 @@ body {
     background-color: #f2f2f2;
     padding: 5px;
   }
-  
+
   ul {
+    color: red;
+  }
+  
+  nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
