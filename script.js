@@ -9,6 +9,7 @@ const buttonTwo = document.getElementById("secondButton")
 buttonTwo.addEventListener("click", function() {
   const aboutMe = document.createElement("p");
   aboutMe.textContent = "I am a software engineer with a passion for building web applications.";
+  aboutMe.setAttribute("id","about-me");
   document.body.appendChild(aboutMe);
 });
 
@@ -23,6 +24,11 @@ buttonThree.addEventListener("click", function() {
   name.textContent = "Joshua C. Kregg" ;
   phone.textContent = "928-273-3531" ;
   email.textContent = "kreggjoshua@gmail.com";
+
+  contactInfo.setAttribute("id", "contact-info");
+  name.setAttribute("id", "contact-name");
+  phone.setAttribute("id", "contact-phone");
+  email.setAttribute("id", "contact-email");
 
   contactInfo.appendChild(name);
   contactInfo.appendChild(phone);
