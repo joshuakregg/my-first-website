@@ -45,4 +45,9 @@ text-align: center;
 margin: 0 auto;
   width: 500px;
 }
+
+.my-class3 {
+  position: relative;
+  top: 500px;
+}
  

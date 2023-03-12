@@ -41,5 +41,10 @@ nav {
   .my-class2 {
     float: right;
   }
+  .my-class3 {
+    position: relative;
+    top: 250px;
+    left: 300px;
+  }
   
   
