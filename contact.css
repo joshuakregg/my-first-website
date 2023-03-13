@@ -8,15 +8,29 @@ nav {
   
 }
 
-ul {
+nav ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-li {
+nav li {
   display: inline-block;
   margin-right: 10px; /* Optional: Add some space between the items */
 }
 
-  
+.contact-info {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+  background-color: aqua;
+  width: 500px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.contact-info p:first-child {
+  font-weight: bold;
+}
